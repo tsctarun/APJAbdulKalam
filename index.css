@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(35deg,#ccffff,#ffcccc);
+}
+#title{
+    text-align:center;
+    background-color: #bdf77e;
+    height:140px;
+    padding:15px 0;
+    margin-top:15px;
+}
+#img-div,#tribute-info{
+    display:grid;
+    justify-items: center;
+    margin:5% auto 2% auto;
+}
+#img-caption{
+    margin:35px auto;
+}
+#timeline{
+    line-height: 35px;
+    margin:25px 100px;
+}
+#quotes{
+    margin:5% 20%;
+    font-size:25px;
+}
