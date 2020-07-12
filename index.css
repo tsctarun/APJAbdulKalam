@@ -1,11 +1,11 @@
 body{
     margin:0;
     padding:0;
-    background:linear-gradient(35deg,#ccffff,#ffcccc);
+    background:linear-gradient(35deg,#ffcccc,#ccffff);
 }
 #title{
     text-align:center;
-    background-color: #bdf77e;
+    background-color:#96dbc5;
     height:140px;
     padding:15px 0;
     margin-top:15px;
@@ -13,16 +13,23 @@ body{
 #img-div,#tribute-info{
     display:grid;
     justify-items: center;
-    margin:5% auto 2% auto;
+    margin:5% 0 2% 0;
+}
+#image{
+    border-radius:50%;
 }
 #img-caption{
-    margin:35px auto;
+    margin:35px;
 }
 #timeline{
     line-height: 35px;
     margin:25px 100px;
 }
 #quotes{
-    margin:5% 20%;
+    margin:5% 10vw;
     font-size:25px;
+}
+#foot{
+    margin:2% auto;
+    text-align: center;
 }
